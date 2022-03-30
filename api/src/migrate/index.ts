@@ -1,12 +1,11 @@
-import { resolve } from 'path'
 import AWS, { AWSError, DynamoDB } from 'aws-sdk'
-import { BatchWriteItemInput, ScanOutput } from 'aws-sdk/clients/dynamodb'
-import axios from 'axios'
+import { ScanOutput } from 'aws-sdk/clients/dynamodb'
 import dotenv from 'dotenv'
-import { request, gql } from 'graphql-request'
-
-import { Author, Book } from './types'
 import { PromiseResult } from 'aws-sdk/lib/request'
+
+import { ReadingEvent } from '../types'
+import { createReadingEvents, createAuthors } from '../hasura'
+import { writeToFile } from '../utils'
 
 if (process.env.NODE_ENV === 'local') {
   dotenv.config()
@@ -17,17 +16,45 @@ if (process.env.NODE_ENV === 'local') {
 
 async function migrate() {
   const books = await getDynamoBooks()
-  for (const book of books) {
+  const uniqueAuthors = Object.values(
+    books.reduce<{ [name: string]: { name: string } }>((acc, book) => {
+      if (!acc[book.author]) {
+        acc[book.author] = { name: book.author }
+      }
+      return acc
+    }, {}),
+  )
+
+  // const authors = uniqueAuthors.map((a) => ({
+  //   ...a,
+  //   author_id:
+  //     Math.random().toString(36).substring(2, 15) +
+  //     Math.random().toString(36).substring(2, 15),
+  // }))
+  // writeToFile(authors, './', 'result')
+  const authors = await createAuthors(uniqueAuthors)
+
+  function getAuthorId(authorName: string) {
+    const author = authors.find((a) => a.name === authorName)
+    if (!author) {
+      throw new Error(`Author ${authorName} not found`)
+    }
+    return author.author_id
+  }
+
+  const booksPayload = books.map((book) => {
     const { author, id, ...theRest } = book
     if (!theRest.number_of_pages) {
       console.log(`${theRest.title}: ${theRest.number_of_pages}`)
     }
-    const authorId = await getAuthorId(author)
-    await createReadingEvent({
+    const authorId = getAuthorId(author)
+    return {
       author_id: authorId,
       ...theRest,
-    })
-  }
+    }
+  })
+
+  await createReadingEvents(booksPayload)
 }
 
 const db = new DynamoDB.DocumentClient()
@@ -49,57 +76,8 @@ async function scanTable<DataType>(tableName: string) {
   return scanResults
 }
 
-async function createReadingEvent(
-  readingEvent: Omit<Book, 'id' | 'author'> & { author_id: string },
-) {
-  const mutation = gql`
-    mutation CreateReadingEvent($readingEvent: reading_event_insert_input!) {
-      insert_reading_event_one(object: $readingEvent) {
-        book_id
-      }
-    }
-  `
-
-  await request<{
-    insert_author: { returning: { id: string }[] }
-  }>('http://localhost:8080/v1/graphql', mutation, { readingEvent })
-}
-
 async function getDynamoBooks() {
-  return scanTable<Book>('Books')
+  return scanTable<ReadingEvent>('Books')
 }
 
-async function getAuthorId(authorName: string) {
-  const query = gql`
-    query GetAuthor($authorName: String!) {
-      author(where: { name: { _eq: $authorName } }) {
-        id
-      }
-    }
-  `
-  const params = { authorName }
-  const queryResponse = await request<{ author: Author[] }>(
-    'http://localhost:8080/v1/graphql',
-    query,
-    params,
-  )
-
-  const { author } = queryResponse
-  if (author.length > 0) {
-    return author[0].id
-  }
-
-  const mutation = gql`
-    mutation MyMutation($authorName: String!) {
-      insert_author_one(object: { name: $authorName }) {
-        id
-      }
-    }
-  `
-  const mutationResponse = await request<{
-    insert_author_one: { id: string }
-  }>('http://localhost:8080/v1/graphql', mutation, params)
-
-  return mutationResponse.insert_author_one.id
-}
 migrate()

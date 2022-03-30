@@ -1,4 +1,4 @@
-export interface Book {
+export interface ReadingEvent {
   id: string
   book_id: number
   title: string
