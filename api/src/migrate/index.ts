@@ -3,7 +3,6 @@ import { ScanOutput } from 'aws-sdk/clients/dynamodb'
 import dotenv from 'dotenv'
 import { PromiseResult } from 'aws-sdk/lib/request'
 
-import { ReadingEvent } from '../types'
 import { createReadingEvents, createAuthors } from '../hasura'
 import { writeToFile } from '../utils'
 
@@ -77,7 +76,18 @@ async function scanTable<DataType>(tableName: string) {
 }
 
 async function getDynamoBooks() {
-  return scanTable<ReadingEvent>('Books')
+  return scanTable<{
+    id: string
+    book_id: number
+    title: string
+    author: string
+    my_rating: number
+    number_of_pages: number
+    date_read: string
+    my_review: string
+    isbn?: string
+    isbn_13?: string
+  }>('Books')
 }
 
 migrate()
