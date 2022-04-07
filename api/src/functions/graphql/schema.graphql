@@ -1,0 +1,21 @@
+type ReadingEvent {
+  authorId: String!
+  bookId: Int
+  dateRead: String
+  isbn: String
+  isbn13: String
+  myRating: Int
+  myReview: String
+  numberOfPages: Int
+  readingEventId: String!
+  title: String!
+}
+
+type Author {
+  name: String!
+  authorId: String!
+}
+
+type Query {
+  readingEvents: [ReadingEvent!]!
+}

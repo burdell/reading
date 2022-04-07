@@ -1,11 +1,14 @@
 overwrite: true
-schema:
-  - 'https://humane-civet-22.hasura.app/v1/graphql':
-      headers:
-        x-hasura-admin-secret: ${HASURA_GRAPHQL_ADMIN_SECRET}
-documents: null
 generates:
-  src/generated/graphql.ts:
+  src/generated/client-graphql.ts:
+    schema: ./src/functions/graphql/schema.graphql
+    plugins:
+      - 'typescript-resolvers'
+      - 'typescript'
+  src/generated/hasura-graphql.ts:
+    schema:
+      - 'https://humane-civet-22.hasura.app/v1/graphql':
+          headers:
+            x-hasura-admin-secret: ${HASURA_GRAPHQL_ADMIN_SECRET}
     plugins:
       - 'typescript'
-      - 'typescript-resolvers'
