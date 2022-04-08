@@ -1,11 +1,18 @@
 overwrite: true
 generates:
-  src/generated/client-graphql.ts:
-    schema: ./src/functions/graphql/schema.graphql
+  generated/client-graphql.ts:
+    schema: ./netlify/functions/graphql/schema.graphql
     plugins:
       - 'typescript-resolvers'
       - 'typescript'
-  src/generated/hasura-graphql.ts:
+  ../frontend/app/generated/graphql.ts:
+    schema: ./netlify/functions/graphql/schema.graphql
+    documents: ../frontend/app/**/*.graphql
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-query'
+  generated/hasura-graphql.ts:
     schema:
       - 'https://humane-civet-22.hasura.app/v1/graphql':
           headers:

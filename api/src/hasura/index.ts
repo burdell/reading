@@ -6,7 +6,7 @@ import {
   Reading_Event_Insert_Input,
   Author_Mutation_Response,
   Author_Insert_Input,
-} from '../generated/hasura-graphql'
+} from '../../generated/hasura-graphql'
 
 export async function gqlRequest<Response>(
   body: string,
