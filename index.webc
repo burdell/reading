@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>WebC Example</title>
-	</head>
-	<body>
-		WebC *is* HTML.
-	</body>
-</html>
+---
+layout: "base.webc"
+useLatestYear: true
+---
+
+<book-list 
+  :@books="collections.readingData.bucketedByYear[collections.readingData.latestYear]"
+  :@heading="collections.readingData.latestYear">
+</book-list>

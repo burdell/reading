@@ -1,0 +1,16 @@
+---js 
+{
+  layout: "base.webc",
+  pagination: { 
+    data: "collections.sortedYears", 
+    size: 1,
+    alias: "year" 
+  }, 
+  permalink: function(args) { 
+    const { year } = args; 
+    return `/year/${year}/`; 
+  },
+} 
+---
+
+<book-list :@books="collections.readingData.bucketedByYear[year]" :@heading="year"></book-list>

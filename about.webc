@@ -1,0 +1,14 @@
+---
+layout: "base.webc"
+currentInformationalPage: "about"
+---
+<page-heading heading="About"></page-heading>
+<page-content>
+  <div class="informational-page">
+    <p>Hello. 👋</p>
+    <p>This is a site I built with <a href="https://www.11ty.dev/">11ty</a>. If you're interested in the code for it, find that <a href="https://github.com/burdell/reading">on Github</a>.</p>
+    <p>I decided to put this together because while I'm an active on <a href="https://www.goodreads.com/user/show/38789987-nathan-griffin">Goodreads</a> and <a href="https://app.thestorygraph.com/profile/burdell">StoryGraph</a>, I've been very interested in both 1) completely owning my reading data and 2) keeping it in a simple, straightfoward format.</a></p>
+    <p>This is just the first, most simple iteration of storing basic data in a single .yml file and generating a site from it. I'm hoping in the future to add more interesting grouping data and other features (search,more complex grouping, long-form reviews, etc ).</p>
+    <p>Stay tuned! 📻</p>
+</div>
+</page-content>

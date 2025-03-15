@@ -1,7 +1,105 @@
+- title: Tooth and Claw
+  author: Craig Johnson
+  datesRead:
+    - 2025/03/12
+  isbn: ="0593834178"
+  isbn13: ="9780593834176"
+  rating: 3
+
+- title: "The Last Tsar: The Abdication of Nicholas II and the Fall of the Romanovs"
+  author: Tsuyoshi Hasegawa
+  datesRead:
+    - 2025/03/11
+  isbn: ="1541606167"
+  isbn13: ="9781541606166"
+  rating: 3
+
+- title: "The Certificate: A Novel"
+  author: Isaac Bashevis Singer
+  datesRead:
+    - 2025/03/11
+  isbn: ="0374529345"
+  isbn13: ="9780374529345"
+  rating: 3
+
+- title: Three Days in June
+  author: Anne Tyler
+  datesRead:
+    - 2025/03/7
+  isbn: ="0593803485"
+  isbn13: ="9780593803486"
+  rating: 3
+
+- title: "Second Act: What Late Bloomers Can Tell You About Success and Reinventing Your Life"
+  author: Henry Oliver
+  datesRead:
+    - 2025/03/01
+  isbn: ="1399813307"
+  isbn13: ="9781399813303"
+  rating: 4
+
+- title: Cubafruit
+  author: Alexander Sorondo
+  datesRead:
+    - 2025/02/28
+  isbn: =""
+  isbn13: =""
+  asin: B0DKY64F77
+  rating: 4
+
+- title: "Challenger: A True Story of Heroism and Disaster on the Edge of Space"
+  author: Adam Higginbotham
+  datesRead:
+    - 2025/01/11
+  isbn: ="198217661X"
+  isbn13: ="9781982176617"
+  rating: 5
+
+- title: The Heart in Winter
+  author: Kevin Barry
+  datesRead:
+    - 2025/02/15
+  isbn: ="0385550596"
+  isbn13: ="9780385550598"
+  rating: 3
+
+- title: "The Blazing World: A New History of Revolutionary England, 1603-1689"
+  author: Jonathan Healey
+  datesRead:
+    - 2025/02/01
+  isbn: ="0593318358"
+  isbn13: ="9780593318355"
+  rating: 4
+
+- title: The Shield of Achilles
+  author: W.H. Auden
+  datesRead:
+    - 2025/01/25
+  isbn: ="069121865X"
+  isbn13: ="9780691218656"
+  rating: 4
+
+- title: James
+  author: Percical Everett
+  datesRead:
+    - 2025/01/11
+  isbn: ="0385550367"
+  isbn13: ="9780385550369"
+  rating: 4
+
+- title: Creation Lake
+  author: Rachel Kushner
+  datesRead:
+    - 2025/01/11
+  isbn: ="1982116528"
+  isbn13: ="9781982116521"
+  rating: 3
+
 - title: The Stories of Breece D'J Pancake
   author: Breece D'J Pancake
   datesRead:
     - 2016/03/07
+    - 2025/01/01
   isbn: ="0316715972"
   isbn13: ="9780316715973"
   rating: 4
@@ -22,15 +120,6 @@
   isbn13: =""
   rating: 4
 
-- title: "Wonder Confronts Certainty: Russian Writers on the Timeless Questions
-    and Why Their Answers Matter"
-  author: Gary Saul Morson
-  datesRead:
-    - 2023/07/03
-  isbn: ="0674293444"
-  isbn13: ="9780674293441"
-  rating: 4
-
 - title: Deadpan
   author: Richard Walter
   datesRead:
@@ -39,7 +128,8 @@
   isbn13: ="9798988717317"
   rating: 2
 
-- title: "What the Chicken Knows: A New Appreciation of the World's Most Familiar
+- title:
+    "What the Chicken Knows: A New Appreciation of the World's Most Familiar
     Bird"
   author: Sy Montgomery
   datesRead:
@@ -96,8 +186,8 @@
   isbn13: ="9780316055437"
   rating: 3
 
-- title: "Walker Percy: The Moviegoer & Other Novels 1961-1971 (LOA #380): The
-    Moviegoer / The Last Gentleman / Love in the Ruins (Library of America,
+- title:
+    "Walker Percy: The Moviegoer & Other Novels 1961-1971 (Library of America,
     380)"
   author: Walker Percy
   datesRead:
@@ -183,6 +273,7 @@
   author: Susanna Clarke
   datesRead:
     - 2021/09/06
+    - 2024/09/18
   isbn: ="163557563X"
   isbn13: ="9781635575637"
   rating: 4
@@ -296,6 +387,7 @@
   author: John Steinbeck
   datesRead:
     - 2016/08/19
+    - 2024/07/20
   isbn: ="0140186395"
   isbn13: ="9780140186390"
   rating: 5
@@ -334,15 +426,17 @@
   isbn13: ="9780374515225"
   rating: 3
 
-- title: "Dune (Dune, #1)"
+- title: "Dune"
   author: Frank Herbert
   datesRead:
     - 2023/09/05
+    - 2024/06/21
   isbn: =""
   isbn13: =""
   rating: 4
 
-- title: "Uncommon Measure: A Journey Through Music, Performance, and the Science
+- title:
+    "Uncommon Measure: A Journey Through Music, Performance, and the Science
     of Time"
   author: Natalie Hodges
   datesRead:
@@ -385,7 +479,8 @@
   isbn13: ="9781324093084"
   rating: 4
 
-- title: "Charlie Hustle: The Rise and Fall of Pete Rose, and the Last Glory Days
+- title:
+    "Charlie Hustle: The Rise and Fall of Pete Rose, and the Last Glory Days
     of Baseball"
   author: Keith O'Brien
   datesRead:
@@ -450,10 +545,11 @@
   isbn13: ="9780679424741"
   rating: 4
 
-- title: "The Divine Comedy: Inferno - Purgatorio - Paradiso"
+- title: The Divine Comedy
   author: Dante Alighieri
   datesRead:
     - 2022/04/17
+    - 2024/03/31
   isbn: ="0679433139"
   isbn13: ="9780679433132"
   rating: 5
@@ -482,7 +578,7 @@
   isbn13: ="9781541619661"
   rating: 4
 
-- title: Wolves of Winter
+- title: Wolves of Winter (Essex Dogs Trilogy)
   author: Dan Jones
   datesRead:
     - 2024/03/15
@@ -517,7 +613,10 @@
 - title: The Brothers Karamazov
   author: Fyodor Dostoevsky
   datesRead:
+    - 2015/01/15
     - 2016/02/17
+    - 2017/12/12
+    - 2024/02/17
   isbn: ="1631498193"
   isbn13: ="9781631498190"
   rating: 5
@@ -632,6 +731,7 @@
   author: Bruce L. Shelley
   datesRead:
     - 2016/03/23
+    - 2023/12/28
   isbn: ="1401676316"
   isbn13: ="9781401676315"
   rating: 4
@@ -772,7 +872,8 @@
   isbn13: ="9780815738862"
   rating: 3
 
-- title: "The Fellowship: The Literary Lives of the Inklings: J.R.R. Tolkien, C.S.
+- title:
+    "The Fellowship: The Literary Lives of the Inklings: J.R.R. Tolkien, C.S.
     Lewis, Owen Barfield, Charles Williams"
   author: Philip Zaleski
   datesRead:
@@ -925,12 +1026,13 @@
   isbn13: ="9780375404047"
   rating: 4
 
-- title: "Worst. President. Ever.: James Buchanan, the POTUS Rating Game, and the
+- title:
+    "Worst. President. Ever.: James Buchanan, the POTUS Rating Game, and the
     Legacy of the Least of the Lesser Presidents"
   author: Robert Strauss
   datesRead:
     - 2023/07/08
-  isbn: ="1515997138"
+  isbn: =""
   isbn13: ="9781515997139"
   rating: 3
 
@@ -942,7 +1044,8 @@
   isbn13: ="9781250862488"
   rating: 3
 
-- title: "The Scarlet Letter: A Guide to Reading and Reflecting (Read and Reflect
+- title:
+    "The Scarlet Letter: A Guide to Reading and Reflecting (Read and Reflect
     with the Classics)"
   author: Karen Swallow Prior
   datesRead:
@@ -991,7 +1094,17 @@
   isbn13: ="9780593321621"
   rating: 2
 
-- title: "Traffic: Genius, Rivalry, and Delusion in the Billion-Dollar Race to Go
+- title: "Wonder Confronts Certainty: Russian Writers on the Timeless Questions
+    and Why Their Answers Matter"
+  author: Gary Saul Morson
+  datesRead:
+    - 2023/07/03
+  isbn: ="0674293444"
+  isbn13: ="9780674293441"
+  rating: 4
+
+- title:
+    "Traffic: Genius, Rivalry, and Delusion in the Billion-Dollar Race to Go
     Viral"
   author: Ben Smith
   datesRead:
@@ -1028,6 +1141,7 @@
   author: Leo Tolstoy
   datesRead:
     - 2016/03/29
+    - 2023/05/10
   isbn: ="0199232768"
   isbn13: ="9780199232765"
   rating: 4
@@ -1161,7 +1275,8 @@
   isbn13: ="9781612199580"
   rating: 4
 
-- title: "The Message in the Bottle: How Queer Man Is, How Queer Language Is, and
+- title:
+    "The Message in the Bottle: How Queer Man Is, How Queer Language Is, and
     What One Has to Do with the Other"
   author: Walker Percy
   datesRead:
@@ -1182,6 +1297,7 @@
   author: Kurt Vonnegut Jr.
   datesRead:
     - 2015/03/04
+    - 2022/12/26
   isbn: ="0385312083"
   isbn13: ="9780385312080"
   rating: 3
@@ -1383,6 +1499,7 @@
   author: Flannery O'Connor
   datesRead:
     - 2015/05/19
+    - 2022/08/02
   isbn: =""
   isbn13: =""
   rating: 5
@@ -1440,6 +1557,7 @@
   author: Walker Percy
   datesRead:
     - 2019/10/13
+    - 2022/06/19
   isbn: ="0374214522"
   isbn13: ="9780374214524"
   rating: 5
@@ -1476,7 +1594,8 @@
   isbn13: ="9781592403950"
   rating: 3
 
-- title: "A Swim in a Pond in the Rain: In Which Four Russians Give a Master Class
+- title:
+    "A Swim in a Pond in the Rain: In Which Four Russians Give a Master Class
     on Writing, Reading, and Life"
   author: George Saunders
   datesRead:
@@ -1610,6 +1729,7 @@
   author: Ralph Ellison
   datesRead:
     - 2020/01/29
+    - 2022/02/25
   isbn: =""
   isbn13: =""
   rating: 5
@@ -1652,6 +1772,7 @@
   author: Fyodor Dostoevsky
   datesRead:
     - 2017/02/21
+    - 2022/01/28
   isbn: ="0375719008"
   isbn13: ="9780375719004"
   rating: 4
@@ -1780,6 +1901,7 @@
   author: Shirley Jackson
   datesRead:
     - 2018/12/26
+    - 2021/10/21
   isbn: ="0143039989"
   isbn13: ="9780143039983"
   rating: 4
@@ -1812,6 +1934,7 @@
   author: Fyodor Dostoevsky
   datesRead:
     - 2016/09/29
+    - 2021/10/24
   isbn: ="0679734511"
   isbn13: ="9780679734512"
   rating: 4
@@ -1974,6 +2097,7 @@
   author: J.R.R. Tolkien
   datesRead:
     - 2015/08/30
+    - 2021/04/17
   isbn: ="0547928203"
   isbn13: ="9780547928203"
   rating: 5
@@ -2086,6 +2210,7 @@
   author: Emily St. John Mandel
   datesRead:
     - 2017/08/29
+    - 2021/01/14
   isbn: ="0385353308"
   isbn13: ="9780385353304"
   rating: 5
@@ -2130,7 +2255,8 @@
   isbn13: ="9780830844838"
   rating: 4
 
-- title: "The Myth of Disenchantment: Magic, Modernity, and the Birth of the Human
+- title:
+    "The Myth of Disenchantment: Magic, Modernity, and the Birth of the Human
     Sciences"
   author: Jason Ānanda Josephson-Storm
   datesRead:
@@ -2143,6 +2269,7 @@
   author: J.R.R. Tolkien
   datesRead:
     - 2015/08/23
+    - 2020/11/21
   isbn: ="0547928211"
   isbn13: ="9780547928210"
   rating: 4
@@ -2183,6 +2310,7 @@
   author: Shirley Jackson
   datesRead:
     - 2018/12/15
+    - 2020/10/23
   isbn: ="0143039970"
   isbn13: ="9780143039976"
   rating: 5
@@ -2330,6 +2458,7 @@
   author: Nikolai Gogol
   datesRead:
     - 2016/04/21
+    - 2020/07/05
   isbn: ="0300060998"
   isbn13: ="9780300060997"
   rating: 4
@@ -2354,6 +2483,7 @@
   author: Fyodor Dostoevsky
   datesRead:
     - 2015/03/24
+    - 2020/06/15
   isbn: =""
   isbn13: =""
   rating: 5
@@ -2400,7 +2530,8 @@
   isbn13: ="9780062400369"
   rating: 4
 
-- title: "The Only Rule Is It Has to Work: Our Wild Experiment Building a New Kind
+- title:
+    "The Only Rule Is It Has to Work: Our Wild Experiment Building a New Kind
     of Baseball Team"
   author: Ben Lindbergh
   datesRead:
@@ -2417,7 +2548,8 @@
   isbn13: ="9780439655484"
   rating: 4
 
-- title: "On the Road with Saint Augustine: A Real-World Spirituality for Restless
+- title:
+    "On the Road with Saint Augustine: A Real-World Spirituality for Restless
     Hearts"
   author: James K.A. Smith
   datesRead:
@@ -2583,8 +2715,8 @@
   author: J.K. Rowling
   datesRead:
     - 2019/12/08
-  isbn: ="0439554934"
-  isbn13: ="9780439554930"
+  isbn: =""
+  isbn13: =""
   rating: 4
 
 - title: The Double and The Gambler
@@ -2655,8 +2787,8 @@
   author: Mary Wollstonecraft Shelley
   datesRead:
     - 2019/09/28
-  isbn: =""
-  isbn13: =""
+  isbn: ="1853260231"
+  isbn13: ="9781853260230"
   rating: 4
 
 - title: Amends
@@ -2703,6 +2835,7 @@
   author: C.S. Lewis
   datesRead:
     - 2016/07/02
+    - 2019/08/17
   isbn: =""
   isbn13: =""
   rating: 5
@@ -2880,6 +3013,7 @@
   author: Leo Tolstoy
   datesRead:
     - 2015/08/02
+    - 2019/03/03
   isbn: ="0679410007"
   isbn13: ="9780679410003"
   rating: 5
@@ -3059,6 +3193,7 @@
 - title: Confessions
   author: Augustine of Hippo
   datesRead:
+    - 2018/10/09
     - 2015/11/14
   isbn: =""
   isbn13: =""
@@ -3108,6 +3243,7 @@
   author: Vladimir Nabokov
   datesRead:
     - 2015/10/13
+    - 2018/09/06
   isbn: =""
   isbn13: =""
   rating: 4
@@ -3189,6 +3325,7 @@
   author: George Saunders
   datesRead:
     - 2017/04/16
+    - 2018/07/01
   isbn: ="0812995341"
   isbn13: ="9780812995343"
   rating: 3
@@ -3294,7 +3431,7 @@
   datesRead:
     - 2018/03/23
   isbn: =""
-  isbn13: =""
+  isbn13: ="9780088619451"
   rating: 3
 
 - title: The Evil Wizard Smallbone
@@ -3373,6 +3510,7 @@
   author: Yevgeny Zamyatin
   datesRead:
     - 2016/05/22
+    - 2017/12/18
   isbn: ="0140185852"
   isbn13: ="9780140185850"
   rating: 4
@@ -3487,6 +3625,7 @@
   author: Timothy J. Keller
   datesRead:
     - 2015/01/01
+    - 2017/06/28
   isbn: ="0525954147"
   isbn13: ="9780525954149"
   rating: 4
@@ -3499,10 +3638,11 @@
   isbn13: ="9780932633439"
   rating: 4
 
-- title: The Idiot (Vintage Classics)
+- title: The Idiot
   author: Fyodor Dostoevsky
   datesRead:
     - 2015/07/12
+    - 2017/06/17
   isbn: ="0375702245"
   isbn13: ="9780375702242"
   rating: 5
@@ -3604,7 +3744,7 @@
   isbn13: ="9780143039631"
   rating: 3
 
-- title: Judges For You
+- title: Judges For You (God's Word For You)
   author: Timothy J. Keller
   datesRead:
     - 2017/04/16
@@ -3652,7 +3792,8 @@
   isbn13: ="9780393970128"
   rating: 4
 
-- title: "The Speed of Sound: Breaking the Barriers Between Music and Technology:
+- title:
+    "The Speed of Sound: Breaking the Barriers Between Music and Technology:
     A Memoir"
   author: Thomas  Dolby
   datesRead:
@@ -3797,7 +3938,8 @@
   isbn13: =""
   rating: 4
 
-- title: "Southern Spirits: Four Hundred Years of Drinking in the American South,
+- title:
+    "Southern Spirits: Four Hundred Years of Drinking in the American South,
     with Recipes"
   author: Robert F. Moss
   datesRead:
@@ -3862,7 +4004,8 @@
   isbn13: ="9780801048937"
   rating: 4
 
-- title: "Where We Want to Live: Reclaiming Infrastructure for a New Generation of
+- title:
+    "Where We Want to Live: Reclaiming Infrastructure for a New Generation of
     Cities"
   author: Ryan Gravel
   datesRead:
@@ -3985,7 +4128,8 @@
   isbn13: ="9780679733751"
   rating: 5
 
-- title: "Heal Us, Emmanuel: A Call for Racial Reconciliation, Representation, and
+- title:
+    "Heal Us, Emmanuel: A Call for Racial Reconciliation, Representation, and
     Unity in the Church"
   author: Doug Serven
   datesRead:
@@ -4151,6 +4295,7 @@
   author: J.R.R. Tolkien
   datesRead:
     - 2015/09/07
+    - 2021/11/21
   isbn: ="054792819X"
   isbn13: ="9780547928197"
   rating: 5
@@ -4277,7 +4422,8 @@
   isbn13: ="9780804139021"
   rating: 5
 
-- title: "Jesus Outside the Lines: A Way Forward for Those Who Are Tired of Taking
+- title:
+    "Jesus Outside the Lines: A Way Forward for Those Who Are Tired of Taking
     Sides"
   author: Scott Sauls
   datesRead:

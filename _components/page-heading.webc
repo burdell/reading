@@ -1,0 +1,4 @@
+<div class="page-heading">
+  <h2 @text="heading"></h3>
+  <p webc:if="subheading" @text="subheading"></p>
+</div>

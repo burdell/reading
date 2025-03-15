@@ -1,0 +1,8 @@
+<div class="book">
+  <div class="book-heading">
+    <p class="date" @text="formatDate(book.dateRead)"></p>
+    <rating :rating="book.rating"></rating>
+  </div>
+  <h3 class="title" @text="book.title"></h3>
+  <p class="author" @text="book.author"></p>
+</div>

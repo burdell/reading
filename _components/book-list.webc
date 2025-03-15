@@ -1,0 +1,6 @@
+<page-heading :heading="heading" :subheading="books.length + ' ' + pluralize(`book`, books.length)"></page-heading>
+<page-content :books="books">
+  <div webc:for="bookData of books" webc:nokeep>
+    <book :@book="bookData"></book>
+  </div>
+</page-content
