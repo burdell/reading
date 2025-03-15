@@ -78,5 +78,18 @@ export default function (eleventyConfig) {
     return inflection.inflect(string, count);
   });
 
-  eleventyConfig.addPassthroughCopy({ "_assets/favicon.ico": "/" });
+  eleventyConfig.addPassthroughCopy({
+    "./_assets/favicon.ico": "/favicon.ico",
+  });
+
+  eleventyConfig.addPassthroughCopy({ "./_assets": "/assets" });
+
+  return {
+    dir: {
+      input: ".",
+      output: "_site",
+      includes: "_includes",
+      layouts: "_layouts",
+    },
+  };
 }
