@@ -6,6 +6,14 @@
   isbn13: ="9781804950319"
   rating: 3
 
+- title: The Castle
+  author: Franz Kafka
+  datesRead:
+    - 2025/04/04
+  isbn: ="0805211063"
+  isbn13: ="9780805211061"
+  rating: 3
+
 - title: "Black Woods Blue Sky"
   author: Eowyn Ivey
   datesRead:
