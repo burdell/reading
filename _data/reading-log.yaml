@@ -1,3 +1,27 @@
+- title: Masters of Atlantis
+  author: Charles Portis
+  datesRead:
+    - 2025/04/19
+  isbn: ="1585670219"
+  isbn13: ="9781585670215"
+  rating: 3
+
+- title: "Superbloom: How Technologies of Connection Tear Us Apart"
+  author: Nicholas Carr
+  datesRead:
+    - 2025/04/19
+  isbn: ="1324064617"
+  isbn13: ="9781324064619"
+  rating: 4
+
+- title: The Silver Bone
+  author: Andrey Kurkov
+  datesRead:
+    - 2025/04/13
+  isbn: ="0063352281"
+  isbn13: ="9780063352285"
+  rating: 3
+
 - title: "How to Win the Premier League: The Inside Story of Football's Data Revolution"
   author: Ian Graham
   datesRead:
@@ -14,7 +38,7 @@
   isbn13: ="9780805211061"
   rating: 3
 
-- title: "Black Woods Blue Sky"
+- title: Black Woods Blue Sky
   author: Eowyn Ivey
   datesRead:
     - 2025/03/29
@@ -90,7 +114,7 @@
 - title: "Challenger: A True Story of Heroism and Disaster on the Edge of Space"
   author: Adam Higginbotham
   datesRead:
-    - 2025/01/11
+    - 2025/02/22
   isbn: ="198217661X"
   isbn13: ="9781982176617"
   rating: 5
@@ -122,7 +146,7 @@
 - title: James
   author: Percical Everett
   datesRead:
-    - 2025/01/11
+    - 2025/01/24
   isbn: ="0385550367"
   isbn13: ="9780385550369"
   rating: 4
