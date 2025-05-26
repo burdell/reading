@@ -1,3 +1,27 @@
+- title: "Children of Dune"
+  author: Frank Herbert
+  datesRead:
+    - 2025/05/26
+  isbn: ="0593548450"
+  isbn13: ="9780593548455"
+  rating: 3
+
+- title: "Feel Free: Essays"
+  author: Zadie Smith
+  datesRead:
+    - 2025/05/18
+  isbn: ="0698178882"
+  isbn13:
+  rating: 3
+
+- title: "Atavists: Stories"
+  author: Lydia Millet
+  datesRead:
+    - 2025/05/13
+  isbn: ="1324074418"
+  isbn13: ="9781324074410"
+  rating: 3
+
 - title: Masters of Atlantis
   author: Charles Portis
   datesRead:
