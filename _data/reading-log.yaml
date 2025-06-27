@@ -1,3 +1,35 @@
+- title: Animal Farm
+  author: George Orwell
+  datesRead:
+    - 2025/06/26
+  isbn: ="0451526341"
+  isbn13: ="9780451526342"
+  rating: 3
+
+- title: The Decameron
+  author: Giovanni Boccaccio
+  datesRead:
+    - 2025/06/23
+  isbn: ="0140449302"
+  isbn13: ="9780140449303"
+  rating: 4
+
+- title: Little Nothing
+  author: Marisa Silver
+  datesRead:
+    - 2025/06/18
+  isbn: ="0399167927"
+  isbn13: ="9780399167928"
+  rating: 3
+
+- title: "The Northern: A Novel"
+  author: Jacob McArthur Mooney
+  datesRead:
+    - 2025/06/13
+  isbn: ="1778523943"
+  isbn13: ="9781778523946"
+  rating: 3
+
 - title: "Children of Dune"
   author: Frank Herbert
   datesRead:
