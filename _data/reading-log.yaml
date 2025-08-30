@@ -1,3 +1,83 @@
+- title: "Invitation: Stories"
+  author: Mi Jin Kim
+  datesRead:
+    - 2025/08/27
+  isbn: ="1496244346"
+  isbn13: ="9781496244345"
+  rating: 4
+
+- title: "Mood Machine: The Rise of Spotify and the Costs of the Perfect Playlist"
+  author: Liz Pelly
+  datesRead:
+    - 2025/08/23
+  isbn: ="1668083507"
+  isbn13: ="9781668083505"
+  rating: 3
+
+- title: The Left Hand of Darkness
+  author: "Ursula K. Le Guin"
+  datesRead:
+    - 2025/08/23
+  isbn: ="0441478123"
+  isbn13: ="9780441478125"
+  rating: 4
+
+- title: The Art of a Lie
+  author: "Laura Shepherd-Robinson"
+  datesRead:
+    - 2025/08/20
+  isbn: ="1668083094"
+  isbn13: ="9781668083093"
+  rating: 4
+
+- title: So Far Gone
+  author: Jess Walter
+  datesRead:
+    - 2025/08/08
+  isbn: ="0062868144"
+  isbn13: ="9780062868145"
+  rating: 3
+
+- title: "The Extinction of Experience: Being Human in a Disembodied World"
+  author: Christina Rosen
+  datesRead:
+    - 2025/07/31
+  isbn: ="0393241718"
+  isbn13: ="9780393241716"
+  rating: 3
+
+- title: Karla's Choice
+  author: Nick Harkaway
+  datesRead:
+    - 2025/07/27
+  isbn: ="0593833503"
+  isbn13: ="9780593833506"
+  rating: 4
+
+- title: Vulture
+  author: Phoebe Greenwood
+  datesRead:
+    - 2025/07/20
+  isbn: ="B0CZTRL5MB"
+  isbn13: ="9798889660965"
+  rating: 3
+
+- title: Brisbane
+  author: Eugene Vodolazkin
+  datesRead:
+    - 2025/07/15
+  isbn: ="1636080456"
+  isbn13: ="9781636080451"
+  rating: 4
+
+- title: Helm
+  author: Sarah Hall
+  datesRead:
+    - 2025/07/04
+  isbn: ="0063439921"
+  isbn13: ="9780063439924"
+  rating: 3
+
 - title: "Flannery O'Connor and the Christ-Haunted South"
   author: "Ralph C. Wood"
   datesRead:
@@ -3771,6 +3851,7 @@
   datesRead:
     - 2015/07/12
     - 2017/06/17
+    - 2025/08/06
   isbn: ="0375702245"
   isbn13: ="9780375702242"
   rating: 5
@@ -4513,6 +4594,7 @@
   author: Karen Linn
   datesRead:
     - 2015/10/04
+    - 2015/07/20
   isbn: ="025206433X"
   isbn13: ="9780252064333"
   rating: 4
