@@ -8,14 +8,20 @@ function parseReadingLog(collectionApi) {
   const allBooks = [];
   const bucketedByYear = {};
 
-  data["reading-log"].forEach(({ datesRead, ...book }) => {
-    if (!datesRead) {
+  data["reading-log"].forEach((book) => {
+    if (!book.readings) {
       console.info("No read data for: ", book);
       return;
     }
 
-    datesRead.forEach((dateString) => {
-      const bookWithDate = { dateRead: dateString, ...book };
+    const { readings, ...bookInfo } = book;
+    readings.forEach((reading) => {
+      const dateString = reading.date;
+      const bookWithDate = {
+        ...bookInfo,
+        dateRead: dateString,
+        ...reading,
+      };
       allBooks.push(bookWithDate);
 
       const year = dateString.split("/")[0];
@@ -30,11 +36,11 @@ function parseReadingLog(collectionApi) {
   // Sort each year bucket by dateRead
   Object.keys(bucketedByYear).forEach((year) => {
     bucketedByYear[year].sort(
-      (a, b) => new Date(b.dateRead) - new Date(a.dateRead)
+      (a, b) => new Date(b.dateRead).getTime() - new Date(a.dateRead).getTime()
     );
   });
 
-  const sortedYears = Object.keys(bucketedByYear).sort((a, b) => b - a);
+  const sortedYears = Object.keys(bucketedByYear).sort((a, b) => Number(b) - Number(a));
 
   return {
     allBooks,
@@ -68,7 +74,6 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("formatDate", (dateObj) => {
     return DateTime.fromJSDate(new Date(dateObj)).toLocaleString({
-      // year: "numeric",
       month: "short",
       day: "numeric",
     });
