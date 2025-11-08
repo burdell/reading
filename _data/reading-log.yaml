@@ -1,3 +1,66 @@
+- title: "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"
+  author: Cory Doctorow
+  isbn: ""
+  isbn13: '="9780374619329"'
+  rating: 4
+  readings:
+    - date: 2025/10/31
+- title: Dominion
+  author: "Addie E. Citchens"
+  isbn: ""
+  isbn13: '="9780061146657"'
+  rating: 2
+  readings:
+    - date: 2025/10/30
+- title: "The Sleepwalkers: How Europe Went to War in 1914"
+  author: Christopher Clark
+  isbn: ""
+  isbn13: '="9780061146657"'
+  rating: 4
+  readings:
+    - date: 2025/10/25
+- title: North Country
+  author: Matt Bondurant
+  isbn: ""
+  isbn13: '="9798874811754"'
+  rating: 4
+  readings:
+    - date: 2025/10/17
+- title: "Mrs. Dalloway"
+  author: Virginia Woolf
+  isbn: ""
+  isbn13: '="9780593490389"'
+  rating: 4
+  readings:
+    - date: 2025/10/02
+- title: The History of Sound
+  author: Ben Shattuck
+  isbn: ""
+  isbn13: '="9780593490389"'
+  rating: 5
+  readings:
+    - date: 2025/09/23
+- title: "Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves"
+  author: Nicola Twilley
+  isbn: ""
+  isbn13: '="9780735223288"'
+  rating: 3
+  readings:
+    - date: 2025/09/13
+- title: "Summer of Our Discontent: The Age of Certainty and the Demise of Discourse"
+  author: Thomas Chatterton Williams
+  isbn: ""
+  isbn13: '="9798889661276"'
+  rating: 4
+  readings:
+    - date: 2025/09/01
+- title: The Book of I
+  author: David Greig
+  isbn: ""
+  isbn13: '="9798889661276"'
+  rating: 4
+  readings:
+    - date: 2025/08/31
 - title: "Invitation: Stories"
   author: Mi Jin Kim
   isbn: '="1496244346"'
@@ -61,6 +124,13 @@
   rating: 4
   readings:
     - date: 2025/07/15
+- title: Dusk
+  author: Robbie Arnott
+  isbn: ""
+  isbn13: '="9781662603303"'
+  rating: 4
+  readings:
+    - date: 2025/07/09
 - title: Helm
   author: Sarah Hall
   isbn: '="0063439921"'
@@ -927,6 +997,7 @@
   rating: 4
   readings:
     - date: 2020/04/16
+    - date: 2025/10/07
 - title: "The Constitution of Knowledge: A Defense of Truth"
   author: Jonathan Rauch
   isbn: '="0815738862"'
@@ -3884,6 +3955,7 @@
   rating: 5
   readings:
     - date: 2015/10/29
+    - date: 2025/09/20
 - title: "The Return of the King (The Lord of the Rings, #3)"
   author: J.R.R. Tolkien
   isbn: '="054792819X"'
@@ -3969,7 +4041,7 @@
   rating: 4
   readings:
     - date: 2015/10/04
-    - date: 2015/07/20
+    - date: 2025/07/18
 - title: Notes from a Dead House
   author: Fyodor Dostoevsky
   isbn: '="0307959597"'
