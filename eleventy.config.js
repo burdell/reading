@@ -3,62 +3,14 @@ import yaml from "js-yaml";
 import { DateTime } from "luxon";
 import inflection from "inflection";
 
-function parseReadingLog(collectionApi) {
-  const { data } = collectionApi.getAll()[0];
-  const allBooks = [];
-  const bucketedByYear = {};
-
-  data["reading-log"].forEach((book) => {
-    if (!book.readings) {
-      console.info("No read data for: ", book);
-      return;
-    }
-
-    const { readings, ...bookInfo } = book;
-    readings.forEach((reading) => {
-      const dateString = reading.date;
-      const bookWithDate = {
-        ...bookInfo,
-        dateRead: dateString,
-        ...reading,
-      };
-      allBooks.push(bookWithDate);
-
-      const year = dateString.split("/")[0];
-      if (!bucketedByYear[year]) {
-        bucketedByYear[year] = [];
-      }
-
-      bucketedByYear[year].push(bookWithDate);
-    });
-  });
-
-  // Sort each year bucket by dateRead
-  Object.keys(bucketedByYear).forEach((year) => {
-    bucketedByYear[year].sort(
-      (a, b) => new Date(b.dateRead).getTime() - new Date(a.dateRead).getTime()
-    );
-  });
-
-  const sortedYears = Object.keys(bucketedByYear).sort((a, b) => Number(b) - Number(a));
-
-  return {
-    allBooks,
-    bucketedByYear,
-    sortedYears,
-    latestYear: sortedYears[0],
-  };
-}
-
-function getReadingData(collectionApi) { 
-  if (!collectionApi._readingLogCache) {
-    collectionApi._readingLogCache = parseReadingLog(collectionApi);
-  }
-
-  return collectionApi._readingLogCache;
-}
+import { getReadingData } from "./scripts/getReadingData.js";
+import { downloadCovers } from "./scripts/downloadCovers.js";
 
 export default function (eleventyConfig) {
+  eleventyConfig.on("eleventy.before", async () => {
+    await downloadCovers();
+  });
+
   eleventyConfig.addPlugin(pluginWebc, {
     components: "_components/**/*.webc",
   });
@@ -96,6 +48,8 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "./_assets": "/assets" });
+
+  // eleventyConfig.addPassthroughCopy({ ".cache/covers": "/covers" });
 
   return {
     dir: {

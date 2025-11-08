@@ -1,4 +1,5 @@
 <div class="book">
+  <!-- <img :src="book.coverUrl" :alt="`${title} cover`" loading="lazy" @if="coverUrl"> -->
   <div class="book-heading">
     <p class="date" @text="formatDate(book.dateRead)"></p>
     <rating :rating="book.rating"></rating>
