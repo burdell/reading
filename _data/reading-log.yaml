@@ -1,3 +1,9 @@
+- title: Winter Stories
+  author: Ingvild H. Rishøi
+  isbn: 9780802165947
+  rating: 4
+  readings:
+    - date: 2025/11/08
 - title: "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"
   author: Cory Doctorow
   isbn: 9780374619329
@@ -2255,12 +2261,6 @@
   rating: 3
   readings:
     - date: 2019/11/03
-- title: The Master and Margarita
-  author: Mikhail Bulgakov
-  isbn: 9780141180144
-  rating: 5
-  readings:
-    - date: 2019/10/31
 - title: Dark Tales
   author: Shirley Jackson
   isbn: 9780143132004
@@ -3373,7 +3373,7 @@
 - title: The Master and Margarita
   author: Mikhail Bulgakov
   isbn: 9780140455465
-  rating: 4
+  rating: 5
   readings:
     - date: 2015/11/15
     - date: 2019/10/31
