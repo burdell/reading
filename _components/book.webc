@@ -1,8 +1,8 @@
 <div class="book">
   <img class="book-cover" :src="book.coverUrl" :alt="`${book.title} cover`" loading="lazy">
   <div>
-    <p class="date" @text="formatDate(book.dateRead)"></p>
     <div class="book-heading">
+      <p class="date" @text="formatDate(book.dateRead)"></p>
       <rating :rating="book.rating"></rating>
     </div>
     <h3 class="title" @text="book.title"></h3>
