@@ -50,6 +50,14 @@ function parseReadingLog(collectionApi) {
   };
 }
 
+function getReadingData(collectionApi) { 
+  if (!collectionApi._readingLogCache) {
+    collectionApi._readingLogCache = parseReadingLog(collectionApi);
+  }
+
+  return collectionApi._readingLogCache;
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebc, {
     components: "_components/**/*.webc",
@@ -60,14 +68,14 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("sortedYears", (collectionApi) => {
-    const { sortedYears } = parseReadingLog(collectionApi);
+    const { sortedYears } = getReadingData(collectionApi);
 
     return sortedYears;
   });
 
   eleventyConfig.addCollection("readingData", (collectionApi) => {
     const { allBooks, bucketedByYear, latestYear } =
-      parseReadingLog(collectionApi);
+      getReadingData(collectionApi);
 
     return { allBooks, bucketedByYear, latestYear };
   });
