@@ -185,8 +185,7 @@
 
   .book-list {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
     row-gap: 24px;
     column-gap: 16px;
   }
