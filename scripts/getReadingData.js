@@ -1,3 +1,5 @@
+import { existsSync } from "fs";
+
 export function parseReadingLogData() {}
 
 function parseReadingLog(collectionApi) {
@@ -12,13 +14,17 @@ function parseReadingLog(collectionApi) {
     }
 
     const { readings, ...bookInfo } = book;
-    const shownIsbn = readings.isbn || bookInfo.isbn;
     readings.forEach((reading) => {
+      const shownIsbn = reading.isbn || bookInfo.isbn;
       const dateString = reading.date;
+      const hasCover = existsSync(`.cache/covers/${shownIsbn}.jpg`);
+
       const bookWithDate = {
         ...bookInfo,
         dateRead: dateString,
-        coverUrl: shownIsbn ? `/covers/${bookInfo.isbn}.jpg` : null,
+        coverUrl: hasCover
+          ? `/covers/${shownIsbn}.jpg`
+          : "/assets/default_cover.png",
         ...reading,
       };
       allBooks.push(bookWithDate);

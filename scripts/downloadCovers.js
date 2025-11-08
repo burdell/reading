@@ -4,8 +4,6 @@ import { fileURLToPath } from "url";
 import yaml from "js-yaml";
 
 const CACHE_DIR = ".cache/covers";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 export async function downloadCovers() {
   await fs.mkdir(CACHE_DIR, { recursive: true });
@@ -14,19 +12,28 @@ export async function downloadCovers() {
   const content = await fs.readFile(readingLogPath, "utf8");
   const books = yaml.load(content);
 
-  console.log(`Fetching covers for ${books.length} books...`);
+  const isbns = books
+    .flatMap((book) => {
+      const parentIsbn = book.isbn;
+      const readingIsbns = book.readings?.map((r) => r.isbn) || [];
+      return [parentIsbn, ...readingIsbns];
+    })
+    .filter(Boolean);
+
+  const uniqueIsbns = [...new Set(isbns)];
+
+  console.log(`Fetching covers for ${uniqueIsbns.length} books...`);
 
   const results = await Promise.allSettled(
-    books.map((book) => downloadCover(book.isbn, book.title))
+    uniqueIsbns.map((isbn) => downloadCover(isbn))
   );
 
   const successful = results.filter((r) => r.status === "fulfilled").length;
-  console.log(`✓ Downloaded ${successful}/${books.length} covers`);
+  console.log(`✓ Downloaded ${successful}/${uniqueIsbns.length} covers`);
 }
 
-async function downloadCover(isbn, title) {
+async function downloadCover(isbn) {
   if (!isbn) {
-    console.log(`⊘ No ISBN for: ${title}`);
     return null;
   }
 
@@ -45,15 +52,20 @@ async function downloadCover(isbn, title) {
 
       if (response.ok) {
         const buffer = await response.arrayBuffer();
+        if (buffer.byteLength < 500) {
+          console.log(`✗ Blank image detected for: ${isbn}`);
+          return null;
+        }
+        
         await fs.writeFile(coverPath, Buffer.from(buffer));
-        console.log(`✓ ${title}`);
+        console.log(`✓ ${isbn}`);
         return coverPath;
       } else {
-        console.log(`✗ No cover found for: ${title} (${isbn})`);
+        console.log(`✗ No cover found for: ${isbn}`);
         return null;
       }
     } catch (error) {
-      console.error(`✗ Error fetching ${title}:`, error.message);
+      console.error(`✗ Error fetching ${isbn}:`, error.message);
       return null;
     }
   }

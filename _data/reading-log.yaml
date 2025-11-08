@@ -6,7 +6,7 @@
     - date: 2025/10/31
 - title: Dominion
   author: "Addie E. Citchens"
-  isbn: 9780374609337
+  isbn: 9780374609351
   rating: 2
   readings:
     - date: 2025/10/30
@@ -246,7 +246,7 @@
     - date: 2025/03/01
 - title: Cubafruit
   author: Alexander Sorondo
-  isbn:
+  isbn: 9798349356780
   asin: B0DKY64F77
   rating: 4
   readings:
@@ -302,7 +302,7 @@
     - date: 2024/12/25
 - title: Spoonbenders
   author: Daryl Gregory
-  isbn:
+  isbn: 9781524731823
   rating: 4
   readings:
     - date: 2024/12/23
@@ -314,7 +314,7 @@
     - date: 2024/12/18
 - title: "What the Chicken Knows: A New Appreciation of the World's Most Familiar Bird"
   author: Sy Montgomery
-  isbn:
+  isbn: 9781668047361
   rating: 4
   readings:
     - date: 2024/12/14
@@ -332,7 +332,7 @@
     - date: 2024/12/08
 - title: One Hundred Years of Solitude
   author: Gabriel García Márquez
-  isbn:
+  isbn: 9780060883287
   rating: 4
   readings:
     - date: 2024/12/06
@@ -453,7 +453,7 @@
     - date: 2024/08/23
 - title: An Experiment in Criticism
   author: C.S. Lewis
-  isbn:
+  isbn: 9780521422819
   rating: 5
   readings:
     - date: 2024/08/15
@@ -532,7 +532,7 @@
     - date: 2024/07/02
 - title: Dune
   author: Frank Herbert
-  isbn:
+  isbn: 9780593099322
   rating: 4
   readings:
     - date: 2023/09/05
@@ -581,7 +581,7 @@
     - date: 2024/05/03
 - title: Just Mercy
   author: Bryan Stevenson
-  isbn:
+  isbn: 9780812994520
   rating: 5
   readings:
     - date: 2024/05/02
@@ -648,7 +648,7 @@
     - date: 2024/03/15
 - title: One Day in the Life of Ivan Denisovich
   author: Aleksandr Solzhenitsyn
-  isbn:
+  isbn: 9780141184746
   rating: 4
   readings:
     - date: 2019/12/02
@@ -802,7 +802,7 @@
     - date: 2023/12/01
 - title: "1984"
   author: George Orwell
-  isbn:
+  isbn: 9780451524935
   rating: 4
   readings:
     - date: 2023/11/24
@@ -820,7 +820,7 @@
     - date: 2023/11/10
 - title: The Spy Who Came in from the Cold
   author: John Le Carré
-  isbn:
+  isbn: 9780143124757
   rating: 5
   readings:
     - date: 2023/11/06
@@ -881,7 +881,7 @@
     - date: 2023/09/24
 - title: Rules of Civility
   author: Amor Towles
-  isbn:
+  isbn: 9780670022694
   rating: 4
   readings:
     - date: 2023/09/20
@@ -905,7 +905,7 @@
     - date: 2023/09/10
 - title: The Rabbit Hutch
   author: Tess Gunty
-  isbn:
+  isbn: 9780593534670
   rating: 2
   readings:
     - date: 2023/09/08
@@ -929,7 +929,7 @@
     - date: 2023/08/27
 - title: "Sophocles: The Complete Plays (Signet Classics)"
   author: Sophocles
-  isbn:
+  isbn: 9780451531537
   rating: 4
   readings:
     - date: 2023/08/14
@@ -995,7 +995,7 @@
     - date: 2023/06/04
 - title: The Marriage Portrait
   author: Maggie O'Farrell
-  isbn:
+  isbn: 9780593320624
   rating: 4
   readings:
     - date: 2023/06/18
@@ -1043,7 +1043,7 @@
     - date: 2015/12/06
 - title: Demon Copperhead
   author: Barbara Kingsolver
-  isbn:
+  isbn: 9780063251922
   rating: 5
   readings:
     - date: 2023/05/24
@@ -1068,13 +1068,13 @@
     - date: 2023/05/02
 - title: Reading for the Love of God
   author: Jessica Hooten Wilson
-  isbn:
+  isbn: 9781587435256
   rating: 4
   readings:
     - date: 2023/05/02
 - title: True Grit
   author: Charles Portis
-  isbn:
+  isbn: 9781590204597
   rating: 5
   readings:
     - date: 2023/04/22
@@ -1128,7 +1128,7 @@
     - date: 2023/02/26
 - title: Wise Blood
   author: Flannery O'Connor
-  isbn:
+  isbn: 9780374530631
   rating: 4
   readings:
     - date: 2023/02/14
@@ -1177,13 +1177,13 @@
     - date: 2022/12/26
 - title: Lapvona
   author: Ottessa Moshfegh
-  isbn:
+  isbn: 9780593300268
   rating: 1
   readings:
     - date: 2022/12/24
 - title: "Reading While Black: African American Biblical Interpretation as an Exercise in Hope"
   author: Esau McCaulley
-  isbn:
+  isbn: 9780830854868
   rating: 4
   readings:
     - date: 2022/12/20
@@ -1225,7 +1225,7 @@
     - date: 2022/11/20
 - title: As I Lay Dying
   author: William Faulkner
-  isbn:
+  isbn: 9780099479314
   rating: 3
   readings:
     - date: 2022/11/17
@@ -1321,7 +1321,7 @@
     - date: 2022/08/11
 - title: The Complete Stories
   author: Flannery O'Connor
-  isbn:
+  isbn: 9780374515362
   rating: 5
   readings:
     - date: 2015/05/19
@@ -1467,7 +1467,7 @@
     - date: 2022/03/12
 - title: Black Cake
   author: Charmaine Wilkerson
-  isbn:
+  isbn: 9780593358337
   rating: 2
   readings:
     - date: 2022/03/12
@@ -1491,7 +1491,7 @@
     - date: 2022/01/21
 - title: Invisible Man
   author: Ralph Ellison
-  isbn:
+  isbn: 9780679732761
   rating: 5
   readings:
     - date: 2020/01/29
@@ -1589,7 +1589,7 @@
     - date: 2021/11/30
 - title: "The Return of the King (The Lord of the Rings, #3)"
   author: J.R.R. Tolkien
-  isbn:
+  isbn: 9780261102378
   rating: 5
   readings:
     - date: 2021/11/24
@@ -1613,7 +1613,7 @@
     - date: 2021/11/05
 - title: Far From the Madding Crowd
   author: Thomas Hardy
-  isbn:
+  isbn: 9780141439655
   rating: 3
   readings:
     - date: 2021/10/23
@@ -1663,7 +1663,7 @@
     - date: 2021/09/02
 - title: Les Misérables
   author: Victor Hugo
-  isbn:
+  isbn: 9780451525260
   rating: 5
   readings:
     - date: 2021/09/01
@@ -1759,7 +1759,7 @@
     - date: 2021/04/26
 - title: The Vanishing Half
   author: Brit Bennett
-  isbn:
+  isbn: 9780593190197
   rating: 4
   readings:
     - date: 2020/06/20
@@ -1796,7 +1796,7 @@
     - date: 2021/03/19
 - title: Midnight's Children
   author: Salman Rushdie
-  isbn:
+  isbn: 9780812976533
   rating: 4
   readings:
     - date: 2021/02/21
@@ -1814,13 +1814,13 @@
     - date: 2021/03/03
 - title: Infinite Country
   author: Patricia Engel
-  isbn:
+  isbn: 9781982159467
   rating: 3
   readings:
     - date: 2021/02/28
 - title: "The Righteous Mind: Why Good People Are Divided by Politics and Religion"
   author: Jonathan Haidt
-  isbn:
+  isbn: 9780307377906
   rating: 3
   readings:
     - date: 2021/02/16
@@ -1949,7 +1949,7 @@
     - date: 2020/10/01
 - title: The Count of Monte Cristo
   author: Alexandre Dumas
-  isbn:
+  isbn: 9780140449266
   rating: 4
   readings:
     - date: 2020/09/26
@@ -1985,7 +1985,7 @@
     - date: 2020/08/20
 - title: The Orphan Master's Son
   author: Adam  Johnson
-  isbn:
+  isbn: 9780552778251
   rating: 3
   readings:
     - date: 2020/08/11
@@ -2003,7 +2003,7 @@
     - date: 2020/08/02
 - title: Stories of Your Life and Others
   author: Ted Chiang
-  isbn:
+  isbn: 9780330426640the
   rating: 4
   readings:
     - date: 2020/07/31
@@ -2027,7 +2027,7 @@
     - date: 2016/11/02
 - title: The Nickel Boys
   author: Colson Whitehead
-  isbn:
+  isbn: 9780385693967
   rating: 4
   readings:
     - date: 2020/07/11
@@ -2052,7 +2052,7 @@
     - date: 2020/06/24
 - title: Crime and Punishment
   author: Fyodor Dostoevsky
-  isbn:
+  isbn: 9780679734505
   rating: 5
   readings:
     - date: 2015/03/24
@@ -2143,7 +2143,7 @@
     - date: 2020/03/18
 - title: Emma
   author: Jane Austen
-  isbn:
+  isbn: 9780141439587
   rating: 4
   readings:
     - date: 2020/02/23
@@ -2191,7 +2191,7 @@
     - date: 2019/12/25
 - title: "Harry Potter and the Chamber of Secrets (Harry Potter, #2)"
   author: J.K. Rowling
-  isbn:
+  isbn: 9780439064866
   rating: 4
   readings:
     - date: 2019/12/24
@@ -2221,7 +2221,7 @@
     - date: 2019/12/12
 - title: "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)"
   author: J.K. Rowling
-  isbn:
+  isbn: 9780590353427
   rating: 4
   readings:
     - date: 2019/12/08
@@ -2281,7 +2281,7 @@
     - date: 2019/09/28
 - title: Amends
   author: Eve Tushnet
-  isbn:
+  isbn: 9781514603062
   rating: 4
   readings:
     - date: 2019/09/17
@@ -2299,7 +2299,7 @@
     - date: 2019/08/31
 - title: Measure What Matters
   author: John Doerr
-  isbn:
+  isbn: 9780525637400
   rating: 3
   readings:
     - date: 2019/08/21
@@ -2311,7 +2311,7 @@
     - date: 2019/08/21
 - title: "Till We Have Faces: A Myth Retold"
   author: C.S. Lewis
-  isbn:
+  isbn: 9780062565419
   rating: 5
   readings:
     - date: 2016/07/02
@@ -2390,7 +2390,7 @@
     - date: 2019/04/30
 - title: Never Let Me Go
   author: Kazuo Ishiguro
-  isbn:
+  isbn: 9781400078776
   rating: 5
   readings:
     - date: 2019/04/28
@@ -2426,7 +2426,7 @@
     - date: 2019/03/27
 - title: "The Three-Body Problem (Remembrance of Earth's Past, #1)"
   author: Liu Cixin
-  isbn:
+  isbn: 9780765377067
   rating: 2
   readings:
     - date: 2019/03/23
@@ -2463,7 +2463,7 @@
     - date: 2019/02/02
 - title: "Why We Sleep: Unlocking the Power of Sleep and Dreams"
   author: Matthew Walker
-  isbn:
+  isbn: 9781501144318
   rating: 4
   readings:
     - date: 2019/01/12
@@ -2547,7 +2547,7 @@
     - date: 2018/12/06
 - title: How to Set a Fire and Why
   author: Jesse Ball
-  isbn:
+  isbn: 9781101911754
   rating: 3
   readings:
     - date: 2018/11/25
@@ -2559,7 +2559,7 @@
     - date: 2018/11/23
 - title: Pride and Prejudice
   author: Jane Austen
-  isbn:
+  isbn: 9780613640954
   rating: 5
   readings:
     - date: 2018/11/22
@@ -2577,7 +2577,7 @@
     - date: 2018/10/23
 - title: Confessions
   author: Augustine of Hippo
-  isbn:
+  isbn: 9780140441147
   rating: 4
   readings:
     - date: 2018/10/09
@@ -2614,14 +2614,15 @@
     - date: 2018/09/13
 - title: Pale Fire
   author: Vladimir Nabokov
-  isbn:
+  isbn: 9780679723424
   rating: 4
   readings:
     - date: 2015/10/13
     - date: 2018/09/06
 - title: "The Promises of God: Discovering the One Who Keeps His Word"
   author: R.C. Sproul
-  isbn:
+  isbn: 9780830772063
+
   rating: 4
   readings:
     - date: 2018/09/06
@@ -2663,7 +2664,7 @@
     - date: 2018/07/14
 - title: "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
   author: J.D. Vance
-  isbn:
+  isbn: 9780062300546
   rating: 4
   readings:
     - date: 2018/07/07
@@ -2700,7 +2701,7 @@
     - date: 2018/06/07
 - title: The Secret Lives of Color
   author: Kassia St. Clair
-  isbn:
+  isbn: 9780143131144
   rating: 3
   readings:
     - date: 2018/05/13
@@ -2724,7 +2725,7 @@
     - date: 2018/05/07
 - title: The Great Alone
   author: Kristin Hannah
-  isbn:
+  isbn: 9781250229533
   rating: 3
   readings:
     - date: 2018/04/26
@@ -2766,7 +2767,7 @@
     - date: 2018/02/09
 - title: The Remains of the Day
   author: Kazuo Ishiguro
-  isbn:
+  isbn: 9780345809322
   rating: 5
   readings:
     - date: 2018/02/27
@@ -2821,13 +2822,13 @@
     - date: 2017/12/18
 - title: "The State of the Art (Culture, #4)"
   author: Iain M. Banks
-  isbn:
+  isbn: 9781597800747
   rating: 3
   readings:
     - date: 2017/12/05
 - title: Sing, Unburied, Sing
   author: Jesmyn Ward
-  isbn:
+  isbn: 9781501126062
   rating: 5
   readings:
     - date: 2017/11/18
@@ -2839,7 +2840,7 @@
     - date: 2017/11/05
 - title: Invisible Cities
   author: Italo Calvino
-  isbn:
+  isbn: 9781784871888
   rating: 5
   readings:
     - date: 2017/11/01
@@ -2881,7 +2882,7 @@
     - date: 2017/09/15
 - title: The Myth of Sisyphus and Other Essays
   author: Albert Camus
-  isbn:
+  isbn: 0679733736
   rating: 4
   readings:
     - date: 2017/09/23
@@ -2938,7 +2939,7 @@
     - date: 2017/06/17
 - title: Go Down, Moses
   author: William Faulkner
-  isbn:
+  isbn: 9780140014341
   rating: 5
   readings:
     - date: 2017/06/10
@@ -2962,7 +2963,7 @@
     - date: 2017/05/29
 - title: For Whom the Bell Tolls
   author: Ernest Hemingway
-  isbn:
+  isbn: 9780684803357
   rating: 3
   readings:
     - date: 2017/05/29
@@ -2974,7 +2975,7 @@
     - date: 2017/05/15
 - title: Homegoing
   author: Yaa Gyasi
-  isbn:
+  isbn: 9781101947135
   rating: 5
   readings:
     - date: 2017/05/10
@@ -3064,7 +3065,7 @@
     - date: 2017/01/15
 - title: Americanah
   author: Chimamanda Ngozi Adichie
-  isbn:
+  isbn: 9780007306220
   rating: 4
   readings:
     - date: 2017/01/14
@@ -3076,7 +3077,7 @@
     - date: 2017/01/08
 - title: The Man in the High Castle
   author: Philip K. Dick
-  isbn:
+  isbn: 9780547572482
   rating: 2
   readings:
     - date: 2016/12/27
@@ -3094,7 +3095,7 @@
     - date: 2016/12/24
 - title: Between the World and Me
   author: Ta-Nehisi Coates
-  isbn:
+  isbn: 9780812993547
   rating: 3
   readings:
     - date: 2015/12/29
@@ -3130,7 +3131,7 @@
     - date: 2016/11/30
 - title: No Country for Old Men
   author: Cormac McCarthy
-  isbn:
+  isbn: 9780375706677
   rating: 4
   readings:
     - date: 2016/11/16
@@ -3154,7 +3155,7 @@
     - date: 2016/11/02
 - title: A Gentleman in Moscow
   author: Amor Towles
-  isbn:
+  isbn: 9780143110439
   rating: 3
   readings:
     - date: 2016/10/22
@@ -3250,13 +3251,13 @@
     - date: 2016/07/04
 - title: "This Is Awkward: How Life's Uncomfortable Moments Open the Door to Intimacy and Connection"
   author: Sammy Rhodes
-  isbn:
+  isbn: 9780718034931
   rating: 4
   readings:
     - date: 2016/06/28
 - title: A Farewell To Arms
   author: Ernest Hemingway
-  isbn:
+  isbn: 9781476764528
   rating: 3
   readings:
     - date: 2016/06/22
@@ -3274,7 +3275,7 @@
     - date: 2016/05/13
 - title: "Heal Us, Emmanuel: A Call for Racial Reconciliation, Representation, and Unity in the Church"
   author: Doug Serven
-  isbn:
+  isbn: 9780997398403
   rating: 4
   readings:
     - date: 2016/06/20
@@ -3292,7 +3293,7 @@
     - date: 2016/05/03
 - title: Room
   author: Emma Donoghue
-  isbn:
+  isbn: 9780316098328
   rating: 3
   readings:
     - date: 2016/04/25
@@ -3310,7 +3311,7 @@
     - date: 2016/03/15
 - title: Bird by Bird
   author: Anne Lamott
-  isbn:
+  isbn: 0385480016
   rating: 5
   readings:
     - date: 2016/03/20
@@ -3322,7 +3323,7 @@
     - date: 2016/02/21
 - title: The Stories of Vladimir Nabokov
   author: Vladimir Nabokov
-  isbn:
+  isbn: 9780140132434
   rating: 3
   readings:
     - date: 2016/02/20
@@ -3352,7 +3353,7 @@
     - date: 2015/12/27
 - title: Cat's Cradle
   author: Kurt Vonnegut Jr.
-  isbn:
+  isbn: 9780385333481
   rating: 3
   readings:
     - date: 2015/12/03
@@ -3371,13 +3372,14 @@
     - date: 2025/03/25
 - title: The Master and Margarita
   author: Mikhail Bulgakov
-  isbn:
+  isbn: 9780140455465
   rating: 4
   readings:
     - date: 2015/11/15
+    - date: 2019/10/31
 - title: The Great Divorce
   author: C.S. Lewis
-  isbn:
+  isbn: 9780060652951
   rating: 5
   readings:
     - date: 2015/12/27
@@ -3389,7 +3391,7 @@
     - date: 2015/03/28
 - title: Absalom, Absalom!
   author: William Faulkner
-  isbn:
+  isbn: 0679732187
   rating: 5
   readings:
     - date: 2015/10/29
@@ -3536,7 +3538,7 @@
     - date: 2015/04/27
 - title: Knowing God
   author: J.I. Packer
-  isbn:
+  isbn: 9780830816507
   rating: 4
   readings:
     - date: 2015/04/27

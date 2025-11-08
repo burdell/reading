@@ -8,7 +8,9 @@ import { downloadCovers } from "./scripts/downloadCovers.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
-    await downloadCovers();
+    if (process.env.ELEVENTY_RUN_MODE === "build") {
+      await downloadCovers();
+    }
   });
 
   eleventyConfig.addPlugin(pluginWebc, {
@@ -49,7 +51,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./_assets": "/assets" });
 
-  // eleventyConfig.addPassthroughCopy({ ".cache/covers": "/covers" });
+  eleventyConfig.addPassthroughCopy({ ".cache/covers": "/covers" });
 
   return {
     dir: {

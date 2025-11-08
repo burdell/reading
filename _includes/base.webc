@@ -152,20 +152,38 @@
     margin-bottom: 16px;
   }
 
+  .book {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+  }
+
   .book .title {
     font-size: 1.2rem;
   }
 
   .book .date {
-    font-size: 0.9rem;
     color: var(--light-text-color);
     margin-right: 8px;
+    margin-bottom: 4px;
   }
 
   .book .book-heading {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .book .book-cover {
+    max-width: 120px;
+    border-radius: 4px;
+  }
+
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 16px;
   }
 
 

@@ -1,9 +1,11 @@
 <div class="book">
-  <!-- <img :src="book.coverUrl" :alt="`${title} cover`" loading="lazy" @if="coverUrl"> -->
-  <div class="book-heading">
+  <img class="book-cover" :src="book.coverUrl" :alt="`${book.title} cover`" loading="lazy">
+  <div>
     <p class="date" @text="formatDate(book.dateRead)"></p>
-    <rating :rating="book.rating"></rating>
+    <div class="book-heading">
+      <rating :rating="book.rating"></rating>
+    </div>
+    <h3 class="title" @text="book.title"></h3>
+    <p class="author" @text="book.author"></p>
   </div>
-  <h3 class="title" @text="book.title"></h3>
-  <p class="author" @text="book.author"></p>
 </div>
