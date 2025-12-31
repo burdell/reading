@@ -1,3 +1,57 @@
+- title: "Three Wild Dogs (and the truth): A Memoir"
+  author: Markus Zusak
+  isbn: 9781761563201
+  rating: 4
+  readings:
+    - date: 2025/12/30
+- title: Interpreter of Maladies
+  author: Jhumpa Lahiri
+  isbn: 9780618101368
+  rating: 3
+  readings:
+    - date: 2025/12/29
+- title: Tinkers
+  author: Paul Harding
+  isbn: 9781934137123
+  rating: 4
+  readings:
+    - date: 2025/12/28
+- title: "Catapult: Harry and I Build a Siege Weapon"
+  author: Jim Paul
+  isbn: 9781966218104
+  rating: 5
+  readings:
+    - date: 2025/12/27
+- title: Parallel Lines
+  author: Edward St. Aubyn
+  isbn: 9780593535349
+  rating: 3
+  readings:
+    - date: 2025/12/26
+- title: "The Right to Oblivion: Privacy and the Good Life"
+  author: Lowry Pressly
+  isbn: 9780674298279
+  rating: 4
+  readings:
+    - date: 2025/12/19
+- title: Godric
+  author: Frederick Buechner
+  isbn: 9780060611620
+  rating: 4
+  readings:
+    - date: 2025/12/14
+- title: Things Fall Apart
+  author: Chinua Achebe
+  isbn: 9780307743855
+  rating: 3
+  readings:
+    - date: 2025/12/10
+- title: "The Optimist's Daughter"
+  author: Eudora Welty
+  isbn: 9780679728832
+  rating: 3
+  readings:
+    - date: 2025/12/07
 - title: "The Violin Maker: Finding a Centuries-Old Tradition in a Brooklyn Workshop"
   author: John Marchese
   isbn: 9780060012670
